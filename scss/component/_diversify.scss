@@ -1,0 +1,46 @@
+.diversify-con{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color:#4D13D1;
+    border-radius: 1rem;
+    padding: 2rem 0 0 0;
+    overflow: hidden;
+}
+.diversify-head{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+h3{
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    
+}button{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    color:  #4D13D1;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 1rem;;
+}}
+
+.diversify-image-con{
+    width: 90%;
+    height: 18.75rem;
+    background-image: url(/Users/wddep-user/Desktop/Code/fibreLanding/Assets/PageImage.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.diversify-head > button:active{
+    background-color: #4D13D1;
+    color: white;
+}

@@ -1,0 +1,7 @@
+@mixin flexyCol{
+    display: flex;
+    flex-direction: column;
+}
+@mixin fullPageMargin {
+    margin: 0 5rem 0 5rem;
+}

@@ -1,0 +1,123 @@
+@media(min-width: 768px){
+    //header
+    header,.landing-con,.content-con,
+    .diversify-con,.testi-wrap,.footer-con{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top-nav{
+        width: 50%;
+    }
+    .bot-nav{
+        display: flex!important;
+        width: 75%;
+        flex-direction: row!important;
+    }
+    .menu{
+        display: none;
+    }
+    .links{
+        display: flex!important;
+        align-self: center;
+        width: 30%;
+    }
+    .links li a{
+        padding-right: 1rem;
+    }
+    .cta-btn{
+        display: flex!important;
+        flex-direction: row!important;
+        width: auto!important;
+    }
+    .login,
+    .signup{
+    width: 6rem!important;
+    padding: .5rem;
+    margin: 1rem!important;
+    }
+    //landing
+    .landing-con{
+        display: flex;
+    }
+    .landing-img-con{
+        order: 1;
+    }
+    .landing-content{
+        align-self: center;
+    }
+    .landing-btn-con{
+        display: flex!important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .free{
+        width: 50%!important;
+        display: inline!important;
+        margin-right: 1rem;
+    }
+    .examples{
+        width: 50%!important;
+        display: inline!important;
+    }
+    .checks{
+        display: flex;
+        align-items: center;
+    }
+    //content
+    .card-con{
+        display: flex;
+
+    }
+    .card{
+        width: 30%;
+    }
+    .content-card{
+        padding: 1rem;
+    }
+    .content-heading{
+        padding:0 0 0 1.5rem;;
+    }
+    //diversify
+    .diversify-con{
+        flex-direction: row!important;
+    }
+    .diversify-head{
+        width: 45%!important;
+    }
+    .diversify-image-con {
+        width: 45%!important;
+        margin-top: 2rem!important;
+    }
+    .diversify-head button{
+        width: 40%;;
+    }
+    //testi
+    .testi-wrap{
+        display: flex!important;
+        flex-direction: row!important;
+    }
+    .testi-con{
+        width: 30%!important;
+        margin-left: 0;
+    }
+    .footer-con{
+        display: flex;
+        flex-direction: row!important;
+    }
+    .footer-title{
+        flex-grow: 1.25!important;
+    }
+    .list-con{
+        flex-grow: 1;
+        padding: 0 1rem;
+    }
+    //footer
+    .footer-title{
+        width: 40%;
+    }
+}

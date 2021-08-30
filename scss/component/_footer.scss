@@ -1,0 +1,40 @@
+.footer-con{
+    display: flex;
+    flex-direction: column;
+}
+.footer-title{
+    padding: 2rem 0 1rem 0;
+}
+.top-text{
+    padding-bottom: 0 0 .5rem 0;
+    color: purple;
+    margin-bottom: .5rem;
+}
+.top-text + p {
+    margin-bottom: .5rem;
+}
+
+h4{
+    margin-top: 1.5rem;
+    margin-bottom: .75rem;
+}
+.link-con{
+    display: flex;
+    flex-direction: column;
+}
+.link-con li {
+    padding: 0.33rem 0;
+}
+footer{
+    padding: 0 1.5em;
+    background-color: #FBF8F3;
+    position: relative;
+}
+footer::after{
+    height: 2rem;
+    content: "";
+    background-color: #FBF8F3;
+    width: 200%;
+    position: absolute;
+    left: 0!important;
+}
